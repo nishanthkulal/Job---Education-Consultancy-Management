@@ -68,7 +68,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <form action="/consltancy/admin/viewjobreq.php" method="POST" >
 <div class="row g-3 align-items-center">
   <div class="col-auto">
-    <strong><label for="id" class="col-form-label">Candidate ID</label></strong>
+    <strong><label for="id" class="col-form-label">Candidate ID </label></strong>
   </div>
   <div class="col-auto">
     <input type="text" name="id" id="id" class="form-control ">
