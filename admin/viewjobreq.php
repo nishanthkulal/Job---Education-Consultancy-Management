@@ -75,6 +75,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   </div>
   <button type="submit" class="btn btn-success col-auto">Remove</button>
 </div>
+<br><br>
 </form>
 </div>
 </body>

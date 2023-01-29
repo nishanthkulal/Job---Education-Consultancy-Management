@@ -15,7 +15,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $cname = $_POST["cname"];
     $address = $_POST["address"];
     $email = $_POST["email"];
-    $cname = $_POST["cname"];
+    $availjobs = $_POST["availjobs"];
     $position = $_POST["position"];
     $qualification_req = $_POST["qualification_req"];
     $sql = "INSERT INTO `companies` (`cID`,`cname`, `address`, `email`, `position`, `availjobs`, `qualification_req`) VALUES ('$cID','$cname', '$address', '$email', '$position', '$availjobs', '$qualification_req');";
